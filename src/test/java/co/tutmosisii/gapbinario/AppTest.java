@@ -24,4 +24,18 @@ public class AppTest
         int respuesta=a.calularGAP("10001001");
         assertEquals(3,respuesta );
     }
+
+    @Test
+    public void debePasar1000con0(){
+        App a=new App();
+        int respuesta=a.calularGAP("1000");
+        assertEquals(0,respuesta );
+    }
+
+    @Test
+    public void debePasar1111con0(){
+        App a=new App();
+        int respuesta=a.calularGAP("1111");
+        assertEquals(0,respuesta );
+    }
 }
