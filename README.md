@@ -26,6 +26,11 @@ de TDD en la respectiva rama.
 1. Mínimo test funcionando
 1. Funcionalid implementada
 
+## Pruebas
+
+Esta Rama solo muestra la propuesta del proyecto, las pruebas pueden verse en la siguiente rama
+[Test1](https://github.com/tutmosisII/GapBinario/tree/test1)
+
 ## Visual Studio Devcontariner
 
 Este proyecto hace uso de VisualStudio Devcontariner para tener un ambiente de desarrollo
