@@ -17,9 +17,29 @@ uso de técnicas de TDD. Cada Test que se adicione tendrá una rama separa para 
 
 La rama Test1 contendrá el primer Test y se hará un commit por cada uno de los pasod
 de TDD en la respectiva rama.
+## Test1
+
+La brueba busca tener pruebas para los 3 ejemplos mostrados acá.
+Lo primero es hacer que el tes falle devolviendo la respueata incorrecta así:
+
+| Binario  | Gap  | Distancia   |
+|---|---|---|
+|10001001|10001   | 0  |
+|1000|   | 3  |
+|1111|   | 1  |
+
+
+Esta prueba se hace usando maven:
+
+```bash
+mvn test
+```
+
+
 ## Estructura del proyecto
 
 ![Árbol de proyecto](images/ProyecStructure.png)
+
 ## Pasos de TDD
 
 1. Test fallando
