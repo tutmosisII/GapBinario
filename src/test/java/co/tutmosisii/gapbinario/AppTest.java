@@ -1,8 +1,10 @@
 package co.tutmosisii.gapbinario;
 import org.testng.annotations.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.testng.Assert.assertTrue; 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
+import org.testng.Assert; 
 
 /**
  * Unit test for simple App.
@@ -37,5 +39,21 @@ public class AppTest
         App a=new App();
         int respuesta=a.calularGAP("1111");
         assertEquals(0,respuesta );
+    }
+
+    @Test
+    public void obtener2Cadenasvinariasde10001001(){
+        App a=new App();
+        String binarios[]=a.obtenerCadenasCon0("10001001");
+        assertEquals(binarios[0],"10001");
+        assertEquals(binarios[1],"1001");
+    }
+
+
+    @Test
+    public void obtenerArreglovacio(){
+        App a=new App();
+        String binarios[]=a.obtenerCadenasCon0("1111111");
+        Assert.assertNull(binarios, "Cadena inexperada");
     }
 }
