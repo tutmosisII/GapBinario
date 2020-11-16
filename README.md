@@ -28,3 +28,7 @@ de TDD en la respectiva rama.
 
 Este proyecto hace uso de VisualStudio Devcontariner para tener un ambiente de desarrollo
 mínimo.
+
+## ¿Cómo crear el proyecto inicial?
+
+mvn archetype:generate -DgroupId=co.tutmosisii.gapbinario -DartifactId=Binary-Gap -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
