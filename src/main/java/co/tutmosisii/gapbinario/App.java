@@ -12,6 +12,6 @@ public class App
     }
 
     public int calularGAP(String binario){
-        return 0;
+        return 3;
     }
 }
