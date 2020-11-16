@@ -6,7 +6,7 @@ de unos de un número binario.
 Ejemplos:
 
 | Binario  | Gap  | Distancia   |
-|---|---|---|---|---|
+|---|---|---|
 |10001001|10001   | 3  |
 |1000|   | 0  |
 |1111|   | 0  |
